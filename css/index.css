@@ -25,25 +25,31 @@
     border-spacing: 0;
   }
 
+  body{
+      font: 16px/1.5 Arial, Helvetica, sans-serif;
+  }
+
   .layout{
-      max-width: 1600px;
+      max-width: 1400px;
       margin: 0 auto;
   }
+
+  .button {
+    background-color: #ea4c89;
+    border-radius: 8px;
+    padding:8px 10px;
+    color: #fff;
+    display: inline-block;
+}
+
 header{
     box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
 }
 
-  header .layout{
+header .layout{
       display: flex;
       align-items: center;
       height: 94px;
-  }
-
-  .button {
-      background-color: #ea4c89;
-      border-radius: 8px;
-      padding:10px 10px;
-      color: #fff;
   }
 
 .log img{
@@ -71,7 +77,32 @@ header .extra a{
     font-size: 16px;
 }
 
-  
+  .intro{
+
+      background-color: #f9f8fd;
+  }
+.intro .layout{
+    display: flex;
+    align-items: center;
+    height: 480px;
+}
+.intro h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+.intro p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.intro .button{
+    margin-top: 20px;
+}
+.intro img{
+    margin-left: 200px;
+    width: 520px;
+}
+
+
 
 
 

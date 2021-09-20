@@ -251,6 +251,8 @@ header .extra a{
 
 .cards .info {
     display: flex;
+    margin-top: 10px;
+
 }
 .cards .user {
     display: flex;
@@ -260,6 +262,19 @@ header .extra a{
 
 .cards .user .avatar{
     border-radius: 50%;
+}
+
+.user .username{
+    margin-left: 6px;
+}
+
+.user .label{
+    font-size:12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #aaa;
+    border-radius: 4px;
+    margin-left: 6px;
 }
 
 .cards .actions{

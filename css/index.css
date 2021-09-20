@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  input,
+  button {
+    font-family: inherit;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .layout{
+      width: 1400px;
+      margin: 0 auto;
+  }
+
+  header {
+      border: 1px solid red;
+      display: flex;
+  }
+  
+  .header-title {
+      display: flex;
+  }
